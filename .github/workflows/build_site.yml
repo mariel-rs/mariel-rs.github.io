@@ -1,37 +1,32 @@
-name: Build Personal Site
-on: push
+name: github pages
+
+on:
+  push:
+    branches:
+      - main  # Set a branch to deploy
+  pull_request:
 
 jobs:
-  build:
-
-    name: Build and update website
-    runs-on: ubuntu-latest
-
+  deploy:
+    runs-on: ubuntu-20.04
     steps:
-    - uses: actions/checkout@v2
-      with:
-        submodules: true
-        fetch-depth: 0
-    - name: Setup GoHugo
-      uses: peaceiris/actions-hugo@v2
-      with:
-        hugo-version: '0.92.0'
-    - name: Commit Update
-      run: |
-        echo ":: Eliminando versión previa ::"
-        rm -rf docs
-    - name: Build drafts
-      run: hugo -D
-    - name: Commit Update
-      run: |
-        echo ":: Renombrando nueva version ::"
-        mv public/ docs/
-        git config --global user.email "mariel.rsal@gmail.com"
-        git config --global user.name "mariel-rs"
-        git add .
-        git commit -m "GitHub Actions: Build ok"
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.ref }}
+      - uses: actions/checkout@v2
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          # extended: true
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
