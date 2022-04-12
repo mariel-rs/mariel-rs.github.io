@@ -5,7 +5,7 @@ theme: hugo-profile
 
 Paginate: 3
 #disqusShortname: gurusabarish
-#googleAnalytics: G-DWJJVE27WD
+googleAnalytics: G-0L93SSK6KP
 
 markup:
   goldmark:
@@ -90,7 +90,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Mariel."
-    subtitle: "Solving problems with analytics and technology"
+    subtitle: "Problem solver with analytics and technology"
     content: "A passionate engineer and aspiring analytics consultant. 
     I tend to make use of modern technologies to build solutions that are 
     user-friendly, adaptable, and work correctly. I am certain a conjunction of 
@@ -122,8 +122,6 @@ params:
       I am an engineer with an innate taste for programming languages, technology 
       and applied mathematics. I carry 7+ years of combined experience in technical 
       consulting and software development in the United Kingdom and Mexico.
-      My background is in Chemical engineering and Operational research
-      (the discipline of decision-making using advanced analytical methods).
       I have a strong interest in making Analytics more accessible to organizations
       with operations challenges and provide value to their business. 
       
@@ -141,6 +139,8 @@ params:
         #- "C#"
         - "JavaScript"
         - "NodeJS"
+        - "HTML"
+        - "CSS"
         - "Hugo"
 
   # Experience
@@ -162,7 +162,7 @@ params:
           natural language processing (NLP) and visualizations.
           - Instructor for Data science courses
 
-          **Technologies used (so far)**
+          **Stack and tools (so far)**
           - `Machine Learning` Naive-Bayes classifier for sentiment analysis
           - `NLP` NLTK, TextBlob
           - `EDA` matplotlib, pandas, seaborn
@@ -179,9 +179,11 @@ params:
           enable: false
           content: I worked as as Operational Researcher for the National Digital Twin CReDo project.
         content: |
-          I worked as an Operational researcher working in the CReDo project, a 
-          digital twin demonstrator that aims to improve climate resilience 
-          across infrastructure networks. 
+          I worked as an Operational researcher in the CReDo project, a digital
+          twin demonstrator that aims to improve climate resilience across
+          infrastructure networks. Collaborated with Lars Schewe and Chris Dent
+          from the University of Edinburgh, and [Maksims Abalenkovs](http://mabalenk.gitlab.io/) 
+          from the Hartree Center.
           
           Project deliverables:
           - Development of connectivity models of each network to assess impact 
@@ -190,7 +192,7 @@ params:
           steps for bringing the most sites to operation.
           - Model deployment in Podman containers.
 
-          **Technologies used**
+          **Stack**
           - `Python` NetworkX, pandas, Pyomo, Cbc solver
           - `Podman`
         
@@ -215,8 +217,7 @@ params:
           - Mentored team members on their career development and progression.
           - Provided tier-3 support to implementation engineers and end-users.
 
-
-          **Technologies used**
+          **Stack**
           - `C#`
           - `Fortran`
           - `MS PowerBI`
@@ -241,9 +242,10 @@ params:
           - Lead proactive health check visits to improve satisfaction and accelerate customer success.
           - Delivery of consulting services to customers, such as Total and Elkem Silicones.
 
-          **Technologies used**
+          **Stack**
           - `AspenTech's proprietary software` Aspen Watch, DMCplus, DMC3, IQ, PCWS
           - `Salesforce`
+          - `Virtualization` MS Hyper-V, VMWare
 
   # Education
   education:
@@ -255,7 +257,7 @@ params:
           name: "The University of Edinburgh"
           url: "https://www.ed.ac.uk/"
         date: "2020 - 2021"
-        GPA: "Merit. 3.7 out of 4"
+        GPA: "Merit. 3.7 / 4.0"
         content: |-
           - Awarded a scholarship for postgraduate studies by the Mexican National 
           Council of Science and Technology (CONACYT).
@@ -269,7 +271,7 @@ params:
           name: "Universidad Nacional Autónoma de México"
           url: "https://www.unam.mx/"
         date: "2007 - 2012"
-        GPA: "Magna cum laude. 3.7 out of 5.0"
+        GPA: "Magna cum laude. 3.7 / 4.0"
         content: |-
           - Women in STEM scholarship holder.
           - Concentration in Project Management and Biotechnology
@@ -294,6 +296,25 @@ params:
       #     enable: false
       #     url: "https://example.com"
 
+  courses:
+    enable: true
+    # index: true
+    items:
+      - title: "Full Stack Web development training"
+        school:
+          name: "LaunchX / Inovaccion Virtual"
+          url: "https://info.microsoft.com/LA-DevEngage-WBNR-FY22-02Feb-15-Launch-X-SRDEM100737_LP02-On-Demand-Registration---Form-in-Body.html"
+        date: "Feb 2022 - current"
+        #GPA: "Merit. 3.7 / 4.0"
+        content: |-
+          - 3 months web development training program sponsored by Microsoft Mexico
+
+          **Stack**
+          - HTML
+          - CSS
+          - JavaScript
+          - NodeJS
+
   # Achievements
   achievements:
     enable: false
@@ -317,10 +338,11 @@ params:
     enable: true
     items:
       - title: OptiEducation
-        content: A blog where I share practical exercises of Applied Mathematics, Operations Research and Optimization.  
-          Posts are in Spanish and English.
+        content: A blog where I share practical applications of Mathematics, 
+          Operations Research and Optimization.  Posts written in Spanish and 
+          English.
       
-        image: /images/projects/profile.png
+        image: /images/projects/blog.PNG
         featured:
           name: Blog site
           link: https://optieducation.wordpress.com/
@@ -335,38 +357,46 @@ params:
         #   - icon: fab fa-twitter
         #     url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        # badges:
-        #   - "Django"
+      - title: Airport slot allocation
+        content: A web app that assigns a slot to air carrier landing/take-off
+         requests to use runways and terminals, considering capacities and IATA
+         regulations. The assignment is done heuristically using a greedy
+         constructive algorithm, yielding results in seconds. MSc dissertation project.
+        image: /images/projects/jupyter_run.png
+        # featured:
+        #   name: Demo
+        #   link: https://example.com
+        badges:
+          - "Python"
+          - "Flask"
         #   - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+        # links:
+        #   - icon: fab fa-github
+        #     url: https://github.com/
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        # badges:
-        #   - "Hugo"
-        #   - "Bootstrap"
-        #   - "Javascript"
+      - title: Facility location for obnoxious sites
+        content: A mini case study using real data from a waste management
+          system in Central Portugal. The model calculates the number of facilities
+          (transfer stations, recycling centers and incinerators) and the best
+          location using a mixed-integer linear programming (MILP) model.
+        image: /images/projects/antunes.JPG
+        # featured:
+        #   name: Demo (Binder)
+        #   link: https://mybinder.org/v2/gh/mariel-rs/MSW_Portugal/HEAD
+        badges:
+          - "Python"
+          - "Pyomo"
+          - "Jupyter notebook"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/mariel-rs/MSW_Portugal
 
   #Contact
   contact:
     enable: true
-    content: My inbox is always open. Whether you have a question or we have 
-            similar ideas, feel free to drop a note.
+    content: My inbox is always open. Whether you are interested in supplementing
+            your operations with analytics or we have similar ideas, feel free 
+            to drop a note.
             `mariel [dot] rsal [at] gmail [dot] com`
     #email: gurusabarisha@gmail.com
     #btnName: Mail me
