@@ -13,29 +13,30 @@ markup:
       unsafe: true
 
 Menus:
-  main:
-    # No blog posts so far
-    # - identifier: blog
-    #   name: Blog
-    #   title: Blog posts
-    #   url: /blogs
-    #   weight: 1
+  # main:
+  #   # No blog posts so far
+  #   # - identifier: blog
+  #   #   name: Blog
+  #   #   title: Blog posts
+  #   #   url: /blogs
+  #   #   weight: 1
 
-    #Dropdown menu
-    - identifier: dropdown
-      title: Example dropdown menu
-      name: Course materials
-      weight: 2
-    - identifier: dropdown1
-      title: Data Analysis in Python
-      name: Analisis de Datos (DAP101)
-      url: /#
-      parent: dropdown
-      weight: 1
+  #   #Dropdown menu
+  #   - identifier: dropdown
+  #     enable: false
+  #     title: Example dropdown menu
+  #     name: Side projects
+  #     weight: 0
+    # - identifier: Dat Lab
+    #   title: Dat Lab
+    #   name: Dat Lab
+    #   url: http://mariel-rs.github.io/datlab
+    #   parent: dropdown
+    #   weight: 1
     # - identifier: dropdown2
     #   title: example dropdown 2
     #   name: example 2
-    #   url: /#
+    #   url: /blogs
     #   parent: dropdown
     #   weight: 2
 
@@ -108,8 +109,6 @@ params:
           url: https://github.com/mariel-rs/
         - icon: fab fa-linkedin-in
           url: https://www.linkedin.com/in/amreyes12/
-        - icon: fab fa-wordpress
-          url: https://optieducation.wordpress.com/
       # customIcons:
       #   - icon: /fav.png
       #     url: "https://example.com"
@@ -120,18 +119,19 @@ params:
     title: "About Me"
     image: "/images/girl.jpg"
     content: |-
-      I am an engineer with an innate taste for programming languages, technology 
-      and applied mathematics. I carry 7+ years of combined experience in technical 
-      consulting and software development in the United Kingdom and Mexico.
-      I have a strong interest in making Analytics more accessible to organizations
-      with operations challenges and provide value to their business. 
+      I am an engineer with an innate taste for programming languages, 
+      technology and applied mathematics. I carry 7+ years of combined 
+      experience in technical consulting and software development in the United 
+      Kingdom and Mexico. I have a strong interest in making Analytics more 
+      accessible to organizations with operations challenges and provide value 
+      to their business. 
       
-      I am currently working as an Analytics consultant in Mexico. My current project 
-      analyzes the sense of belonging of University students in new cohorts and 
-      the challenges of online learning, via sentiment analysis and text mining 
-      techniques on satisfaction surveys. This project will be used to help the 
-      University staff to foster a more suitable environment for students and 
-      keep student attrition rates low.
+      I am currently working as an Analytics consultant in Mexico. My current 
+      project analyzes the sense of belonging of University students in new 
+      cohorts and  the challenges of online learning, via sentiment analysis and 
+      text mining techniques on satisfaction surveys. The results of this project 
+      will be used to help the University staff to foster a more suitable 
+      environment for students and keep student attrition rates low.
     skills:
       enable: true
       title: "These are a few languages/frameworks I've been working with recently:"
@@ -159,14 +159,17 @@ params:
         content: |
           - Development of machine learning and mathematical optimization models, 
           heuristic methods and simulations for solving problems. 
-          - Data analysis: treatment, exploratory data analysis (EDA), mining, 
-          natural language processing (NLP) and visualizations.
-          - Instructor for Data science courses
+          - Data analysis: treatment, exploratory data analysis (EDA), data 
+          mining, natural language processing (NLP) and visualizations.
+          - Lead instructor of short courses on Data Analysis and Data Science 
+          in Python aimed at audiences with little to none programming 
+          experience. 
 
           **Stack and tools (so far)**
           - `Machine Learning` Naive-Bayes classifier for sentiment analysis
           - `NLP` NLTK, TextBlob
           - `EDA` matplotlib, pandas, seaborn
+          - `statistics` SciPy, statsmodels
 
       - job: "Research Assistant"
         company: "University of Edinburgh"
@@ -178,19 +181,21 @@ params:
           url: "https://digitaltwinhub.co.uk/credo/"
         info:
           enable: false
-          content: I worked as as Operational Researcher for the National Digital Twin CReDo project.
+          content: I worked as as Operational Researcher for the National 
+            Digital Twin CReDo project.
         content: |
           I worked as an Operational researcher in the CReDo project, a digital
           twin demonstrator that aims to improve climate resilience across
           infrastructure networks. Collaborated with Lars Schewe and Chris Dent
-          from the University of Edinburgh, and [Maksims Abalenkovs](http://mabalenk.gitlab.io/) 
-          from the Hartree Center.
+          from the University of Edinburgh, and 
+          [Maksims Abalenkovs](http://mabalenk.gitlab.io/) from the Hartree 
+          Center.
           
           Project deliverables:
           - Development of connectivity models of each network to assess impact 
           and fault propagation
-          - Development of a mathematical model for defining the best restoration 
-          steps for bringing the most sites to operation.
+          - Development of a mathematical model for defining the best  
+          restoration steps for bringing the most sites to operation.
           - Model deployment in Podman containers.
 
           **Stack**
@@ -230,7 +235,8 @@ params:
         date: "Jan 2017 - Jul 2019"
         info:
           enable: true
-          content: "Relocated to Reading, UK to fill a technical expertise gap in the European market"
+          content: "Relocated to Reading, UK to fill a technical expertise gap 
+            in the European market"
         featuredLink:
           enable: false
           url: "https://example.com"
@@ -239,12 +245,16 @@ params:
           subject matter expert in Advanced Process Control (APC) in the region. 
           
           Highlights during this tenure are:
-          - Delivered 1098h of training courses to customers in public classrooms and on-site.
-          - Lead proactive health check visits to improve satisfaction and accelerate customer success.
-          - Delivery of consulting services to customers, such as Total and Elkem Silicones.
+          - Delivered 1098h of training courses to customers in public 
+          classrooms and on-site.
+          - Lead proactive health check visits to improve satisfaction and 
+          accelerate customer success.
+          - Delivery of consulting services to customers, such as Total and 
+          Elkem Silicones.
 
           **Stack**
-          - `AspenTech's proprietary software` Aspen Watch, DMCplus, DMC3, IQ, PCWS
+          - `AspenTech's proprietary software` Aspen Watch, DMCplus, DMC3, IQ, 
+          PCWS
           - `Salesforce`
           - `Virtualization` MS Hyper-V, VMWare
 
@@ -260,10 +270,11 @@ params:
         date: "2020 - 2021"
         GPA: "Merit. 3.7 / 4.0"
         content: |-
-          - Awarded a scholarship for postgraduate studies by the Mexican National 
-          Council of Science and Technology (CONACYT).
-          - Dissertation: Heuristical methods for the airport slot allocation problem.
-          Supervised by [Prof Miguel F. Anjos](https://miguelanjos.com/).
+          - Awarded a scholarship for postgraduate studies by the Mexican 
+          National Council of Science and Technology (CONACYT).
+          - Dissertation: Heuristical methods for the airport slot allocation 
+          problem. Supervised by 
+          [Prof Miguel F. Anjos](https://miguelanjos.com/).
           - Shortlisted for the Sense of Belonging student award 2021, for 
           creating and fostering collaborative networks among the cohort
 
@@ -277,13 +288,31 @@ params:
           - Women in STEM scholarship holder.
           - Concentration in Project Management and Biotechnology
           - Awarded a study abroad scholarship to study at 
-          [University of Technology, Sydney](https://www.uts.edu.au/) sponsored by 
-          Fundación UNAM and The Coca-Cola Company.
+          [University of Technology, Sydney](https://www.uts.edu.au/) sponsored
+          by Fundación UNAM and The Coca-Cola Company.
           
           Extracurricular Activities
-            - Completed 480h of volunteering work in a Teacher's training program. 
-            Delivered lectures, ran tutorial sessions and maintained a website 
-            with assignments and revision material for the Superior Algebra course
+            - Completed 480h of volunteering work in a Teacher's training 
+            program. Delivered lectures, ran tutorial sessions and maintained a 
+            website with assignments and revision material for the Superior 
+            Algebra course
+
+      - title: "Full Stack Web development training"
+        school:
+          name: "LaunchX / Inovaccion Virtual"
+          url: "https://info.microsoft.com/LA-DevEngage-WBNR-FY22-02Feb-15-Launch-X-SRDEM100737_LP02-On-Demand-Registration---Form-in-Body.html"
+        date: "Feb 2022 - current"
+        #GPA: "Merit. 3.7 / 4.0"
+        content: |-
+          - 3 months web development training program sponsored by Microsoft 
+          Mexico
+
+          **Stack**
+          - HTML
+          - CSS
+          - JavaScript
+          - NodeJS
+
       #   featuredLink:
       #     enable: false
       #     name: "My academic record"
@@ -297,24 +326,26 @@ params:
       #     enable: false
       #     url: "https://example.com"
 
-  courses:
-    enable: true
-    # index: true
-    items:
-      - title: "Full Stack Web development training"
-        school:
-          name: "LaunchX / Inovaccion Virtual"
-          url: "https://info.microsoft.com/LA-DevEngage-WBNR-FY22-02Feb-15-Launch-X-SRDEM100737_LP02-On-Demand-Registration---Form-in-Body.html"
-        date: "Feb 2022 - current"
-        #GPA: "Merit. 3.7 / 4.0"
-        content: |-
-          - 3 months web development training program sponsored by Microsoft Mexico
+  # courses:
+  #   enable: true
+  #   # index: true
+  #   items:
+  #     - title: "Análisis de Datos en Python"
+  #       school:
+  #         name: "Freelance"
+  #         url: "https://mariel-rs.github.io/dap101"
+  #       date: #"Feb 2022 - current"
+  #       #GPA: "Merit. 3.7 / 4.0"
+  #       content: |-
+  #         Lead instructor of a short course on Data Analysis in Python aimed at
+  #         audiences with little to none programming experience. 
 
-          **Stack**
-          - HTML
-          - CSS
-          - JavaScript
-          - NodeJS
+  #         **Content**
+  #         - Introduction to Python: Variables, data structures
+  #         - Loops
+  #         - Data handling: Pandas
+  #         - Visualization: Matplotlib, seaborn
+  #         - Statistics: SciPy
 
   # Achievements
   achievements:
@@ -338,17 +369,17 @@ params:
   projects:
     enable: true
     items:
-      - title: OptiEducation
-        content: A blog where I share practical applications of Mathematics, 
-          Operations Research and Optimization.  Posts written in Spanish and 
-          English.
+      - title: Dat Lab
+        content: Dat Lab is a website where I publish the materials used in the 
+          training courses I run. The courses vary from Data Analysis, 
+          Introductory Python to Applied statistics. This site is in Spanish.
       
-        image: /images/projects/blog.PNG
+        image: /images/projects/datlab.PNG
         featured:
-          name: Blog site
-          link: https://optieducation.wordpress.com/
+          name: Web site
+          link: http://mariel-rs.github.io/datlab
         badges:
-          - "Wordpress"
+          - "Hugo"
           - "Javascript"
         # links:
         #   - icon: fa fa-envelope
