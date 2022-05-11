@@ -90,7 +90,7 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
+    intro: "Hola, my name is"
     title: "Mariel."
     subtitle: "Problem solver with analytics and technology"
     content: "A passionate engineer and aspiring analytics consultant. 
@@ -370,17 +370,21 @@ params:
     enable: true
     items:
       - title: Dat Lab
-        content: Dat Lab is a website where I publish the materials used in the 
-          training courses I run. The courses vary from Data Analysis, 
-          Introductory Python to Applied statistics. This site is in Spanish.
+        content: Dat Lab is a website where I publish the content created for the 
+          training courses I run. The courses are targeted to people who want to
+          supplement their skills and expand their productivity with programming 
+          and technology, yet have little to none programming experience. The 
+          courses vary from Data Analysis, Introductory Python to Applied
+          statistics. This site is in Spanish.
       
         image: /images/projects/datlab.PNG
         featured:
-          name: Web site
+          name: Link to site
           link: http://mariel-rs.github.io/datlab
         badges:
           - "Hugo"
           - "Javascript"
+          - "Python"
         # links:
         #   - icon: fa fa-envelope
         #     url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
