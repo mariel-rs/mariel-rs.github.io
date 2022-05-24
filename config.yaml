@@ -92,15 +92,15 @@ params:
     enable: true
     intro: "Hola, my name is"
     title: "Mariel."
-    subtitle: "Problem solver with analytics and technology"
-    content: "A passionate engineer and aspiring analytics consultant. 
+    subtitle: "Problem solver with data, mathematics and technology"
+    content: "A passionate engineer and aspiring data scientist. 
     I tend to make use of modern technologies to build solutions that are 
     user-friendly, adaptable, and work correctly. I am certain a conjunction of 
     applied mathematics, data and technology can be used for improving business 
     operations and making the world a state-of-the-art place to live."
     image: /images/headshot.jpg
     button:
-      enable: true
+      enable: false
       name: "Resume"
       url: "#"
     socialLinks:
@@ -122,11 +122,11 @@ params:
       I am an engineer with an innate taste for programming languages, 
       technology and applied mathematics. I carry 7+ years of combined 
       experience in technical consulting and software development in the United 
-      Kingdom and Mexico. I have a strong interest in making Analytics more 
-      accessible to organizations with operations challenges and provide value 
-      to their business. 
+      Kingdom and Mexico. I have a strong interest in making analytical 
+      techniques more accessible to organizations with operations challenges and 
+      add value to their business.
       
-      I am currently working as an Analytics consultant in Mexico. My current 
+      I am currently working as an independent consultant in Mexico. My current 
       project analyzes the sense of belonging of University students in new 
       cohorts and  the challenges of online learning, via sentiment analysis and 
       text mining techniques on satisfaction surveys. The results of this project 
@@ -148,7 +148,7 @@ params:
   experience:
     enable: true
     items:
-      - job: "Analytics Consultant"
+      - job: "Consultant"
         company: "Freelance"
         #companyUrl: "https://example.com"
         date: "Nov 2021 - present"
@@ -301,7 +301,7 @@ params:
         school:
           name: "LaunchX / Inovaccion Virtual"
           url: "https://info.microsoft.com/LA-DevEngage-WBNR-FY22-02Feb-15-Launch-X-SRDEM100737_LP02-On-Demand-Registration---Form-in-Body.html"
-        date: "Feb 2022 - current"
+        date: "Feb 2022 - May 2022"
         #GPA: "Merit. 3.7 / 4.0"
         content: |-
           - 3 months web development training program sponsored by Microsoft 
