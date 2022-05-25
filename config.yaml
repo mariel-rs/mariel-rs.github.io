@@ -394,7 +394,7 @@ params:
         #     url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
       - title: Airport slot allocation
-        content: A web app that assigns a slot to air carrier landing/take-off
+        content: A script that assigns a slot to air carrier landing/take-off
          requests to use runways and terminals, considering capacities and IATA
          regulations. The assignment is done heuristically using a greedy
          constructive algorithm, yielding results in seconds. MSc dissertation project.
@@ -404,10 +404,9 @@ params:
         #   link: https://example.com
         badges:
           - "Python"
-          - "Flask"
         #   - "Bootstrap"
-        # links:
-        #   - icon: fab fa-github
+        #links:
+        #   - icon: fas fa-file-pdf
         #     url: https://github.com/
 
       - title: Facility location for obnoxious sites
@@ -426,6 +425,9 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/mariel-rs/MSW_Portugal
+
+          - icon: fas fa-file-pdf
+            url: /doc/TAOR_project.pdf
 
   #Contact
   contact:
