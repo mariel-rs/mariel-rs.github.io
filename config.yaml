@@ -13,13 +13,12 @@ markup:
       unsafe: true
 
 Menus:
-  # main:
-  #   # No blog posts so far
-  #   # - identifier: blog
-  #   #   name: Blog
-  #   #   title: Blog posts
-  #   #   url: /blogs
-  #   #   weight: 1
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /blogs
+      weight: 1
 
   #   #Dropdown menu
   #   - identifier: dropdown
@@ -92,11 +91,11 @@ params:
     enable: true
     intro: "Hola, my name is"
     title: "Mariel."
-    subtitle: "Problem solver with data, mathematics and technology"
-    content: "A passionate engineer and aspiring data scientist. 
-    I tend to make use of modern technologies to build solutions that are 
-    user-friendly, adaptable, and work correctly. I am certain a conjunction of 
-    applied mathematics, data and technology can be used for improving business 
+    subtitle: "Problem solver with technology, data, and analytics"
+    content: "A passionate engineer and aspiring analytics professional. 
+    I enjoy using modern technologies to build solutions that are user-friendly, 
+    adaptable, and deliver a value. I am certain a conjunction of applied 
+    mathematics, data and technology can be used for improving business
     operations and making the world a state-of-the-art place to live."
     image: /images/headshot.jpg
     button:
@@ -126,12 +125,13 @@ params:
       techniques more accessible to organizations with operations challenges and 
       add value to their business.
       
-      I am currently working as an independent consultant in Mexico. My current 
-      project analyzes the sense of belonging of University students in new 
-      cohorts and  the challenges of online learning, via sentiment analysis and 
-      text mining techniques on satisfaction surveys. The results of this project 
-      will be used to help the University staff to foster a more suitable 
-      environment for students and keep student attrition rates low.
+      I am currently working as an independent consultant in Mexico. My latest 
+      project involved a statistical analysis of biomarkers used in veterinary
+      medicine for finding correlations between risk of hemorrhage and the
+      presence of a bacteria in canine patients. This study was done for a 
+      local clinic and it is proving to be helpful for offering a suitable
+      treatment to patients.
+
     skills:
       enable: true
       title: "These are a few languages/frameworks I've been working with recently:"
@@ -140,8 +140,6 @@ params:
         #- "C#"
         - "JavaScript"
         - "NodeJS"
-        - "HTML"
-        - "CSS"
         - "Hugo"
 
   # Experience
@@ -302,7 +300,6 @@ params:
           name: "LaunchX / Inovaccion Virtual"
           url: "https://info.microsoft.com/LA-DevEngage-WBNR-FY22-02Feb-15-Launch-X-SRDEM100737_LP02-On-Demand-Registration---Form-in-Body.html"
         date: "Feb 2022 - May 2022"
-        #GPA: "Merit. 3.7 / 4.0"
         content: |-
           - 3 months web development training program sponsored by Microsoft 
           Mexico
@@ -325,27 +322,6 @@ params:
       #   featuredLink:
       #     enable: false
       #     url: "https://example.com"
-
-  # courses:
-  #   enable: true
-  #   # index: true
-  #   items:
-  #     - title: "Análisis de Datos en Python"
-  #       school:
-  #         name: "Freelance"
-  #         url: "https://mariel-rs.github.io/dap101"
-  #       date: #"Feb 2022 - current"
-  #       #GPA: "Merit. 3.7 / 4.0"
-  #       content: |-
-  #         Lead instructor of a short course on Data Analysis in Python aimed at
-  #         audiences with little to none programming experience. 
-
-  #         **Content**
-  #         - Introduction to Python: Variables, data structures
-  #         - Loops
-  #         - Data handling: Pandas
-  #         - Visualization: Matplotlib, seaborn
-  #         - Statistics: SciPy
 
   # Achievements
   achievements:
@@ -440,10 +416,7 @@ params:
     #btnName: Mail me
 
   footer:
-    # recentPosts: false
+    #recentPosts: 1
     socialNetworks:
       github: https://github.com/mariel-rs/
       linkedin: https://www.linkedin.com/in/amreyes12/
-      #twitter: https://twitter.com
-      #instagram: https://instagram.com
-      #facebook: https://facebook.com
