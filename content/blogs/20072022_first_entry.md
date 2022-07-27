@@ -2,7 +2,6 @@
 title: "First blog entry"
 date: 2022-07-20T22:53:58+05:30
 draft: false
-github_link: "https://github.com/gurusabarish/hugo-profile"
 author: "Mariel"
 tags:
   - intro
