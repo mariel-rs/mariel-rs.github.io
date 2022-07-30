@@ -47,7 +47,7 @@ params:
 
   theme:
     disableThemeToggle: false
-    # defaultTheme: "light" # dark
+    defaultTheme: "dark" # light
 
   # font:
   #   fontSize: 1.5rem # default: 1rem
@@ -136,11 +136,10 @@ params:
       enable: true
       title: "These are a few languages/frameworks I've been working with recently:"
       items:
-        - "Python"
+        - "Hugo"
         - "Java"
         - "JavaScript"
         - "NodeJS"
-        - "Hugo"
 
   # Experience
   experience:
