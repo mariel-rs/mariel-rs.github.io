@@ -137,7 +137,7 @@ params:
       title: "These are a few languages/frameworks I've been working with recently:"
       items:
         - "Python"
-        #- "C#"
+        - "Java"
         - "JavaScript"
         - "NodeJS"
         - "Hugo"
@@ -294,7 +294,16 @@ params:
             program. Delivered lectures, ran tutorial sessions and maintained a 
             website with assignments and revision material for the Superior 
             Algebra course
+      - title: "Java Programming MOOC"
+        school:
+          name: "University of Helsinki"
+          url: "https://java-programming.mooc.fi/"
+        date: "Jul 2022 - "
+        content: |-
+          - Self-learning Java using the MOOC from the University of Helsinki
 
+          **Stack**
+          - Java
       - title: "Full Stack Web development training"
         school:
           name: "LaunchX / Inovaccion Virtual"
