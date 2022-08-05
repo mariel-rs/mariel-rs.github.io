@@ -145,6 +145,25 @@ params:
   experience:
     enable: true
     items:
+      - job: "Solution Consultant II"
+        company: ""
+        #companyUrl: "https://example.com"
+        date: "Aug 2022 - present"
+        featuredLink:
+          enable: false
+          name: "View the project"
+          url: "https://example.com"
+        content: |
+          - Implement analytics solutions to a range of customers in banking and
+          retail
+          - Responsible for the full implementation process: configuration, 
+          data migration, development
+
+          **Stack and tools**
+          - `Java`
+          - `JavaScript`
+          - `Python`
+
       - job: "Consultant"
         company: "Freelance"
         #companyUrl: "https://example.com"
