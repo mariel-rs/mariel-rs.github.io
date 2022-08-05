@@ -155,7 +155,8 @@ params:
           url: "https://example.com"
         content: |
           - Implement analytics solutions to a range of customers in banking and
-          retail. Responsible for the full implementation process: configuration, 
+          retail. 
+          - Responsible for the full implementation process: configuration, 
           data migration, development
 
           **Stack and tools**
