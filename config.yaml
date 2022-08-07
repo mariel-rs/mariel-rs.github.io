@@ -108,6 +108,8 @@ params:
           url: https://github.com/mariel-rs/
         - icon: fab fa-linkedin-in
           url: https://www.linkedin.com/in/amreyes12/
+        - icon: fas fa-book
+          url: https://mariel-rs.github.io/blogs
       # customIcons:
       #   - icon: /fav.png
       #     url: "https://example.com"
@@ -145,26 +147,27 @@ params:
   experience:
     enable: true
     items:
-      - job: "Solution Consultant II"
-        company: ""
-        #companyUrl: "https://example.com"
-        date: "Aug 2022 - present"
-        featuredLink:
-          enable: false
-          name: "View the project"
-          url: "https://example.com"
-        content: |
-          - Implement analytics solutions to a range of customers in banking and
-          retail. 
-          - Responsible for the full implementation process: configuration, 
-          data migration, development
+      # - job: "Solution Consultant II"
+      #   company: "FICO"
+      #   companyUrl: "https://www.fico.com/"
+      #   date: "Aug 2022 - present"
+      #   featuredLink:
+      #     enable: false
+      #     name: "View the project"
+      #     url: "https://example.com"
+      #   content: |
+      #     - Implementation of analytics solutions to a range of customers in 
+      #     banking and retail. 
+      #     - Responsible for the full implementation cycle: configuration, 
+      #     data migration, development
 
-          **Stack and tools**
-          - `Java`
-          - `JavaScript`
-          - `Python`
+      #     **Tech stack**
+      #     - `FICO's proprietary software`
+      #     - `Java`
+      #     - `JavaScript`
+      #     - `Python`
 
-      - job: "Consultant"
+      - job: "Data consultant"
         company: "Freelance"
         #companyUrl: "https://example.com"
         date: "Nov 2021 - present"
@@ -172,6 +175,9 @@ params:
           enable: false
           name: "View the project"
           url: "https://example.com"
+        info:
+          enable: true
+          content: Working as a freelance consultant, feel free to contact me!
         content: |
           - Development of machine learning and mathematical optimization models, 
           heuristic methods and simulations for solving problems. 
@@ -181,14 +187,16 @@ params:
           in Python aimed at audiences with little to none programming 
           experience. 
 
-          **Stack and tools (so far)**
+          **Tech stack**
+          - `EDA` matplotlib, pandas, seaborn
+          - `LaTeX`
           - `Machine Learning` Naive-Bayes classifier for sentiment analysis
           - `NLP` NLTK, TextBlob
-          - `EDA` matplotlib, pandas, seaborn
           - `statistics` SciPy, statsmodels
+          - `Ẁeb development` Hugo
 
       - job: "Research Assistant"
-        company: "University of Edinburgh"
+        company: "The University of Edinburgh"
         companyUrl: "https://www.ed.ac.uk"
         date: "Sep 2021 - Feb 2022"
         featuredLink:
@@ -209,13 +217,16 @@ params:
           
           Project deliverables:
           - Development of connectivity models of each network to assess impact 
-          and fault propagation
+          and fault propagation.
           - Development of a mathematical model for defining the best  
           restoration steps for bringing the most sites to operation.
           - Model deployment in Podman containers.
 
-          **Stack**
-          - `Python` NetworkX, pandas, Pyomo, Cbc solver
+          **Tech stack**
+          - `Git`
+          - `LaTeX`
+          - `Optimization` Cbc solver
+          - `Python` NetworkX, pandas, Pyomo
           - `Podman`
         
       - job: "Sr Engineer"
@@ -239,10 +250,11 @@ params:
           - Mentored team members on their career development and progression.
           - Provided tier-3 support to implementation engineers and end-users.
 
-          **Stack**
+          **Tech stack**
           - `C#`
           - `Fortran`
           - `MS PowerBI`
+          - `Perforce`
           - `SQLite`
 
       - job: "Technical Consultant"
@@ -263,21 +275,49 @@ params:
           Highlights during this tenure are:
           - Delivered 1098h of training courses to customers in public 
           classrooms and on-site.
+          - Created custom training materials for nonlinear control operations. 
+          This custom training was delivered to YASREF and LyondellBasell.
           - Lead proactive health check visits to improve satisfaction and 
           accelerate customer success.
-          - Delivery of consulting services to customers, such as Total and 
-          Elkem Silicones.
+          - Delivery of consulting services to customers, such as Cepsa, Total 
+          and Elkem Silicones.
 
-          **Stack**
+          **Tech stack**
           - `AspenTech's proprietary software` Aspen Watch, DMCplus, DMC3, IQ, 
           PCWS
+          - `OPC` OPC Expert, Matrikon OPC Explorer
+          - `Remote desktop` TeamViewer, WebEx
           - `Salesforce`
+          - `Virtualization` MS Hyper-V, VMWare
+
+      - job: "Associate Technical Support Consultant"
+        company: "AspenTech - MX"
+        companyUrl: "https://www.aspentech.com"
+        date: "Dec 2013 - Jan 2017"
+        featuredLink:
+          enable: false
+          url: "https://example.com"
+        content: |
+          Joined the global team of technical consultants assigned to the 
+          Advanced Process Control (APC) suite of products. My responsabilities
+          involved:
+          - Troubleshooting typical usage problems to customers
+          - Detection of product defects and escalation to R&D and Product 
+          Management
+          - Delivery of virtual training courses to customers, e.g. Flint Hills
+          Resources, Wacker Chemie
+          - Authoring knowledge base articles with technical tips and best 
+          practices
+
+          **Tech stack**
+          - `AspenTech's proprietary software` Aspen Watch, DMCplus, PCWS
+          - `Remote desktop` TeamViewer, WebEx
           - `Virtualization` MS Hyper-V, VMWare
 
   # Education
   education:
     enable: true
-    # index: true
+    #index: true
     items:
       - title: "MSc. in Operational Research"
         school:
@@ -293,6 +333,12 @@ params:
           [Prof Miguel F. Anjos](https://miguelanjos.com/).
           - Shortlisted for the Sense of Belonging student award 2021, for 
           creating and fostering collaborative networks among the cohort
+
+          **Tech stack**
+          - `Optimization` FICO Xpress, NEOS server
+          - `Python` folium, geopandas, Jupyter, matplotplib, NumPy, pandas, 
+            Pyomo, seaborn, scikit-learn, SciPy
+          - `R` caret, dplyr, ggplot2
 
       - title: "BEng. in Chemical Engineering"
         school:
@@ -312,6 +358,15 @@ params:
             program. Delivered lectures, ran tutorial sessions and maintained a 
             website with assignments and revision material for the Superior 
             Algebra course
+
+          **Tech stack**
+          - `CAD` AutoCAD, MS Visio
+          - `Chemical drawing` ChemSketch
+          - `Data analysis` OriginLab
+          - `LaTeX`
+          - `Mathematics` Maple, Mathcad, Polymath
+          - `Simulation` Aspen HYSYS, Aspen HTFS
+
       - title: "Java Programming MOOC"
         school:
           name: "University of Helsinki"
