@@ -47,7 +47,7 @@ params:
 
   theme:
     disableThemeToggle: false
-    defaultTheme: "dark" # light
+    defaultTheme: "light" # dark
 
   # font:
   #   fontSize: 1.5rem # default: 1rem
@@ -147,25 +147,25 @@ params:
   experience:
     enable: true
     items:
-      # - job: "Solution Consultant II"
-      #   company: "FICO"
-      #   companyUrl: "https://www.fico.com/"
-      #   date: "Aug 2022 - present"
-      #   featuredLink:
-      #     enable: false
-      #     name: "View the project"
-      #     url: "https://example.com"
-      #   content: |
-      #     - Implementation of analytics solutions to a range of customers in 
-      #     banking and retail. 
-      #     - Responsible for the full implementation cycle: configuration, 
-      #     data migration, development
+      - job: "Solution Consultant II"
+        company: "FICO"
+        companyUrl: "https://www.fico.com/"
+        date: "Aug 2022 - present"
+        featuredLink:
+          enable: false
+          name: "View the project"
+          url: "https://example.com"
+        content: |
+          - Implementation of analytics solutions to a range of customers in 
+          banking and retail. 
+          - Responsible for the full implementation cycle: configuration, 
+          data migration, development
 
-      #     **Tech stack**
-      #     - `FICO's proprietary software`
-      #     - `Java`
-      #     - `JavaScript`
-      #     - `Python`
+          **Tech stack**
+          - `FICO's proprietary software`
+          - `Java`
+          - `JavaScript`
+          - `Python`
 
       - job: "Data consultant"
         company: "Freelance"
