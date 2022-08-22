@@ -323,7 +323,7 @@ params:
         school:
           name: "The University of Edinburgh"
           url: "https://www.ed.ac.uk/"
-        date: "2020 - 2021"
+        date: "2021"
         GPA: "Merit. 3.7 / 4.0"
         content: |-
           - Awarded a scholarship for postgraduate studies by the Mexican 
@@ -339,12 +339,13 @@ params:
           - `Python` folium, geopandas, Jupyter, matplotplib, NumPy, pandas, 
             Pyomo, seaborn, scikit-learn, SciPy
           - `R` caret, dplyr, ggplot2
+          - `Simulation` Simul8
 
       - title: "BEng. in Chemical Engineering"
         school:
           name: "Universidad Nacional Autónoma de México"
           url: "https://www.unam.mx/"
-        date: "2007 - 2012"
+        date: "2012"
         GPA: "Magna cum laude. 3.7 / 4.0"
         content: |-
           - Women in STEM scholarship holder.
@@ -365,7 +366,7 @@ params:
           - `Data analysis` OriginLab
           - `LaTeX`
           - `Mathematics` Maple, Mathcad, Polymath
-          - `Simulation` Aspen HYSYS, Aspen HTFS
+          - `Process simulation` Aspen HYSYS, Aspen HTFS
 
       - title: "Java Programming MOOC"
         school:
