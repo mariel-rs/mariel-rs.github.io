@@ -64,9 +64,9 @@ the existing functionality that I got used to on 20.04.
 
 ## Final thoughts
 It's been only a day with 22.04.1, so I haven't found much as of now. So far, it
-feels faster and more stable. The upgrade was quite smooth and I am pleased that
-I don't have to fix major issues because of messy upgrades. Python, Java, git,
-Hugo and all my development environment tools are working as expected. It's as
-if I have only rebooted the machine. 
+feels faster and more stable. The upgrade was quite smooth, and I am pleased 
+that I don't have to fix major issues because of messy upgrades. Python, Java, 
+git, Hugo and all my development environment tools are working as expected. It's 
+as if I have only rebooted the machine. 
 
 I'll update this entry with the latest surprises I unveil :smirk:

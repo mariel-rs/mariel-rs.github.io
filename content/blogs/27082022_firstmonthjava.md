@@ -25,16 +25,16 @@ thoroughly this month. The content is well laid-out and with many exercises for
 making me feel comfortable with the language syntax. I have covered the first 5 
 parts (out of 7). I have to give it to the course organizers, I have changed my
 mind about Java. I don't love it, but I see why Java is the staple language for 
-teaching object-oriented programming, it's quite didactical. 
+teaching object-oriented programming, it's quite didactic. 
 
 I haven't written a line of C# code since 2020, and Java made me remember those
 times. The fact that C# and Java have similar syntaxes has been an advantage for 
 going through the course slightly faster. To be fair, I learned C# on the go, 
-with work being my my main driving force for making the program compile :zany_face: 
+with work being my main driving force for making the program compile :zany_face: 
 
 I am considering on doing the second Java course from the University of Helsinki,
 why not? The material keeps building on complexity and has now hooked me to code 
-a bit more on Java everyday. 
+a bit more on Java every day. 
 
 The whole reason why I decided to learn Java was because of a job requirement, 
 and I am glad I started learning before starting my full-time job. The 
@@ -57,9 +57,9 @@ docs are excellent!). Java docs is good though.
 some details. For instance, the exercises where you have to use the `Paths.get()`
 method. I spent a lot of time on it, thinking that I was doing something wrong.
 However, it was all a misunderstanding about what the method does.
-- I installed Java on both Linux and Windows. Both times I had to do an uninstall
-and an install of a different version. The winner was Linux. No need to do
-esotherical stuff on environment variables. Windows is messy, but we knew that 
+- I installed Java on both Linux and Windows. Both times I had to uninstall
+and then install a different version. The winner was Linux. No need to do
+esoteric stuff on environment variables. Windows is messy, but we knew that 
 already :zany_face:
 - I didn't realize how much I missed writing proper code. After spending almost
 2 years writing Python (and seldom R), I almost forgot about access modifiers,
