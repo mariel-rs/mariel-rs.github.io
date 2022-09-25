@@ -13,7 +13,7 @@ toc: true
 ---
 
 This week I was given a task that required me to use a CentOS virtual machine
-image. Typically I use VirtualBox and it was also recommended to use this
+image. Typically, I use VirtualBox and it was also recommended using this
 hypervisor. Importing the image should have been a straightforward process, yet 
 it was more educational.
 <!--more-->

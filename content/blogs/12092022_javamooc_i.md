@@ -45,7 +45,7 @@ I finished the whole course on circa 6 weeks, dedicating an average of 6 hours
 per part. The course material advises to allocate at least 10 hours per part, 
 with each part being covered in one week. Considering this is not my first 
 programming language, I got curious on how much time I would take to cover the 
-topics so I kept a log of the amount of hours dedicated per part with Clockify
+topics, so I kept a log of the amount of hours dedicated per part with Clockify
 and WakaTime. 
 
 I am aware that the answers are only a _google-search_ away, yet I decided to 
@@ -68,7 +68,7 @@ challenging exercises and topics. Here are a few comments and the most highlight
 
 These parts have the usual introductory material when learning a programming
 language - variables, data types, conditionals and loops. The exercise list was
-quite long but I understand why the course organizers decided to do that, this
+quite long, but I understand why the course organizers decided to do that. This
 course does not assume the student has prior programming experience.
 
 I found useful the "Recurring problems and patterns" section as it offered clear
@@ -97,7 +97,7 @@ out. But that reminded me of an important lesson: read the documentation!
 
 ### More OOP (Part 5)
 
-This part went back to object-oriented programing topics and extended on what was
+This part went back to object-oriented programming topics and extended on what was
 introduced on part 4. I found to be extremely helpful the "Primitive and 
 reference variables" and the "Objects and references" sections. The explanations 
 were clear and the exercises were great for reinforcing the material.
@@ -110,13 +110,13 @@ Maven and finding out why my development environment kept complaining about a
 _missing_ Maven... I didn't install it! :rofl: I must have missed it. 
 
 I couldn't help myself from comparing Jest (for JavaScript) and JUnit. Both 
-share a similar syntax but I liked that JUnit allows to use annotations,
-especially useful for data that can be brought *@Before* running the test suite.
+share a similar syntax but I liked that JUnit allows annotations, especially
+useful for data that can be brought *@Before* running the test suite.
 
 ### Programming paradigms, algorithms and large programming exercises (Part 7)
 
 This was mainly a recap part where the content shows the advantages and 
-disadvantages of procedural and object oriented programming paradigms. The last
+disadvantages of procedural and object-oriented programming paradigms. The last
 three exercises were fun to do, as they were only given as functionalities to
 be implemented, rather than explicit instructions on which files, classes,
 methods, variables, ..., to create. I particularly enjoyed the Algorithms 

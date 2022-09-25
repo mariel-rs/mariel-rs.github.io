@@ -24,7 +24,7 @@ Despite having been working in technology for more than 7 years now, I started
 on my coding path in early 2019. I was more familiar with IT stuff such as 
 protocols, firewalls, networks and general troubleshooting. In these 3+ years I 
 realized that coding is an ongoing learning process, if the aim is to stay up
-to date with latest trends and technologies available. 
+to date with the latest trends and technologies available. 
 
 Now that I have landed on a much more technical role than before, and of course
 more challenging, I have to be more organized on my spare time and what I 
@@ -46,15 +46,15 @@ deeper way and to start with typical frameworks used in real solutions.
 ### Web development
 
 This year I also took a short course on web development offered by LaunchX, and 
-sadly (or happily?) I only got interested only by one part of the course: 
-Backend using NodeJS. To make the story short, I found that part to be the most
+sadly (or happily?) I only got interested in one part of the course: Backend 
+using NodeJS. To make the story short, I found that part to be the most
 comprehensive and hands-on than the rest of the course. This left me with
 several deficiencies on the front-end side that I want to fix as I still want to 
 develop my small site to test experimental optimization applications for 
 out-of-the-blue problems.
 
 This being said, I have decided to take another course on web development and go 
-further than easy tutorials. I had two runner-ups: The Odin Project(TOP) and 
+further than easy tutorials. I had two runner-ups: The Odin Project (TOP) and 
 freeCodeCamp. After looking thoroughly at the contents, exercises and reviews, 
 the winner is TOP.
 
@@ -78,11 +78,11 @@ something that is worth learning.
 ### Docker
 
 Oh yes, containers. This is such a needed one. I played with containers briefly
-on the [CReDo](https://digitaltwinhub.co.uk/credo/) project. We used Podman there
+on the [CReDo](https://digitaltwinhub.co.uk/credo/) project. We used Podman 
 and it was quite easy to use, but I want to really understand how to build a
 container from scratch (not just to take someone else's script). Since this is
 a topic that I will touch base on in a while, I haven't really looked for 
-appropriate resources to learn Docker. As soon as a I progress on my learning
+appropriate resources to learn Docker. As soon as I progress on my learning
 path, I'll get onto it.
 
 ### Data Structures and Algorithms
