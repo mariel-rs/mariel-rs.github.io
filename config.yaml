@@ -92,11 +92,10 @@ params:
     intro: "Hola, my name is"
     title: "Mariel."
     subtitle: "Problem solver with technology, data, and analytics"
-    content: "A passionate engineer and aspiring analytics professional. 
-    I enjoy using modern technologies to build solutions that are user-friendly, 
-    adaptable, and deliver a value. I am certain a conjunction of applied 
-    mathematics, data and technology can be used for improving business
-    operations and making the world a state-of-the-art place to live."
+    content: "I enjoy using modern technologies to build solutions that are 
+    user-friendly, adaptable, and deliver value. I am certain that a conjunction
+    of applied mathematics, data and technology is key for making the world a 
+    state-of-the-art place to live."
     image: /images/headshot.jpg
     button:
       enable: false
@@ -120,19 +119,15 @@ params:
     title: "About Me"
     image: "/images/girl.jpg"
     content: |-
-      I am an engineer with an innate taste for programming languages, 
-      technology and applied mathematics. I carry 7+ years of combined 
-      experience in technical consulting and software development in the United 
-      Kingdom and Mexico. I have a strong interest in making analytical 
-      techniques more accessible to organizations with operations challenges and 
-      add value to their business.
+      I am an engineer with an innate taste for technology and applied 
+      mathematics. I have over 8 years of combined experience in technical 
+      consultancy and software development in the United Kingdom and Mexico. I 
+      have a strong interest in making analytical techniques more accessible to 
+      organizations with operations challenges and adding value to their 
+      business.
       
-      I am currently working as an independent consultant in Mexico. My latest 
-      project involved a statistical analysis of biomarkers used in veterinary
-      medicine for finding correlations between risk of hemorrhage and the
-      presence of a bacteria in canine patients. This study was done for a 
-      local clinic and it is proving to be helpful for offering a suitable
-      treatment to patients.
+      I currently work as a solution consultant for an analytics company and
+      learn Brazilian Portuguese in my spare time.
 
     skills:
       enable: true
@@ -140,6 +135,7 @@ params:
       items:
         - "Hugo"
         - "Java"
+        - "Maven"
         - "JavaScript"
         - "NodeJS"
 
@@ -162,7 +158,7 @@ params:
           data migration, development
 
           **Tech stack**
-          - `FICO's proprietary software`
+          - `FICO's proprietary software` Blaze, Decision Modeler
           - `Java`
           - `JavaScript`
           - `Python`
@@ -335,6 +331,7 @@ params:
           creating and fostering collaborative networks among the cohort
 
           **Tech stack**
+          - `LaTeX`
           - `Optimization` FICO Xpress, NEOS server
           - `Python` folium, geopandas, Jupyter, matplotplib, NumPy, pandas, 
             Pyomo, seaborn, scikit-learn, SciPy
@@ -372,12 +369,16 @@ params:
         school:
           name: "University of Helsinki"
           url: "https://java-programming.mooc.fi/"
-        date: "Jul 2022 - "
+        date: "Jul 2022 - Oct 2022"
         content: |-
           - Self-learning Java using the MOOC from the University of Helsinki
+          - My solutions to the exercises can be found on the 
+          [Java I](https://github.com/mariel-rs/mooc_fi_java) and 
+          [Java II](https://github.com/mariel-rs/mooc_fi_java_ii) repositories
 
           **Stack**
           - Java
+          - Maven
       - title: "Full Stack Web development training"
         school:
           name: "LaunchX / Inovaccion Virtual"
