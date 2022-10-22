@@ -4,8 +4,9 @@ title: "Welcome | Mariel's GitHub page"
 theme: hugo-profile
 
 Paginate: 3
-#disqusShortname: gurusabarish
+#disqusShortname:
 googleAnalytics: G-0L93SSK6KP
+ignoreErrors: ["error-remote-getjson"]
 
 markup:
   goldmark:
@@ -126,8 +127,8 @@ params:
       organizations with operations challenges and adding value to their 
       business.
       
-      I currently work as a solution consultant for an analytics company and
-      learn Brazilian Portuguese in my spare time.
+      I currently work as a solution consultant for an analytics company and I 
+      am learning Brazilian Portuguese in my spare time.
 
     skills:
       enable: true
@@ -247,6 +248,7 @@ params:
           - Provided tier-3 support to implementation engineers and end-users.
 
           **Tech stack**
+          - `AspenTech's proprietary software` DMC3, GDOT, Aspen Unified
           - `C#`
           - `Fortran`
           - `MS PowerBI`
@@ -272,11 +274,13 @@ params:
           - Delivered 1098h of training courses to customers in public 
           classrooms and on-site.
           - Created custom training materials for nonlinear control operations. 
-          This custom training was delivered to YASREF and LyondellBasell.
+          This custom training was delivered to YASREF (Yanbu, Kingdom of Saudi 
+          Arabia) and LyondellBasell (Wesseling, Germany).
           - Lead proactive health check visits to improve satisfaction and 
           accelerate customer success.
-          - Delivery of consulting services to customers, such as Cepsa, Total 
-          and Elkem Silicones.
+          - Delivery of consulting services to customers, such as Cepsa (Palos 
+          de la Frontera, Spain), Total (Mitteldeustschland, Germany) and
+          Elkem Silicones (France).
 
           **Tech stack**
           - `AspenTech's proprietary software` Aspen Watch, DMCplus, DMC3, IQ, 
