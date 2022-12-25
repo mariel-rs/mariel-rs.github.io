@@ -156,7 +156,7 @@ params:
           - Implementation of analytics solutions to a range of customers in 
           banking and retail. 
           - Responsible for the full implementation cycle: configuration, 
-          data migration, development
+          data migration, development, testing
 
           **Tech stack**
           - `FICO's proprietary software` Blaze, Decision Modeler
