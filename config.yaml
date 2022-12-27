@@ -137,6 +137,7 @@ params:
       items:
         - "Hugo"
         - "Java"
+        - "Julia"
         - "Python"
         - "Maven"
         - "CentOS"
