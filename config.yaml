@@ -92,11 +92,8 @@ params:
     enable: true
     intro: "Hola, my name is"
     title: "Mariel."
-    subtitle: "Problem solver with technology, data, and analytics"
-    content: "I enjoy using modern technologies to build solutions that are 
-    user-friendly, adaptable, and deliver value. I am certain that a conjunction
-    of applied mathematics, data and technology is key for making the world a 
-    state-of-the-art place to live."
+    subtitle: "Analytics consultant"
+    content: "I like to solve problems using technology and applied mathematics"
     image: /images/headshot.jpg
     button:
       enable: false
@@ -120,27 +117,25 @@ params:
     title: "About Me"
     image: "/images/girl.jpg"
     content: |-
-      I am an engineer with an innate taste for technology and applied 
-      mathematics. I have over 8 years of combined experience in technical 
-      consultancy and software development in the United Kingdom and Mexico. I 
-      have a strong interest in making analytical techniques more accessible to 
-      organizations with operations challenges and adding value to their 
-      business.
-      
-      I am currently working as a solution consultant for an analytics company
-      implementing decision management systems, and in my spare time I am learning 
-      Brazilian Portuguese.
+      I am an engineer with 8+ years of combined experience in technical 
+      consulting, software development and solution implementation. My career 
+      has taken me to work in the EMEA, LATAM and NORAM regions for clients in
+      various fields, such as manufacturing, control engineering, digital twins
+      and analytics.
+
+      My interests lie in the junction between technology and applied 
+      mathematics, with a particular focus on using analytical techniques to 
+      make informed decisions on operational challenges. I also enjoy 
+      learning new tech stacks and supplementing my skills for building 
+      user-friendly and adaptable software solutions that deliver value.
 
     skills:
       enable: true
-      title: "Lately I've been working with the following tech stack:"
+      title: "Latest tech stack I have been working with:"
       items:
-        - "Hugo"
         - "Java"
         - "Julia"
         - "Python"
-        - "Maven"
-        - "CentOS"
         - "Pop!_OS"
 
   # Experience
@@ -166,7 +161,7 @@ params:
           - `Java`
           - `Python`
 
-      - job: "Data consultant"
+      - job: "Analytics Consultant"
         company: "Freelance"
         #companyUrl: "https://example.com"
         date: "Nov 2021 - present"
@@ -180,10 +175,10 @@ params:
         content: |
           - Development of machine learning and mathematical optimization models, 
           heuristic methods and simulations for solving problems. 
-          - Data analysis: treatment, exploratory data analysis (EDA), data 
+          - Data analysis: treatment exploratory data analysis (EDA), data 
           mining, natural language processing (NLP) and visualizations.
           - Lead instructor of short courses on Data Analysis and Data Science 
-          in Python aimed at audiences with little to none programming 
+          in Python aimed at audiences with little to no programming 
           experience. 
 
           **Tech stack**
@@ -239,7 +234,7 @@ params:
           enable: false
           url: "https://example.com"
         content: |
-          Lead a team of software developers of a dynamic optimiser used for 
+          Led a team of software developers of a dynamic optimiser used for 
           unifying Supply chain management with Process control solutions. 
           Highlights during this tenure are:
 
@@ -275,9 +270,8 @@ params:
           Highlights during this tenure are:
           - Delivered 1098h of training courses to customers in public 
           classrooms and on-site.
-          - Created custom training materials for nonlinear control operations. 
-          This custom training was delivered to YASREF (Yanbu site) and 
-          LyondellBasell (Wesseling site).
+          - Created custom training materials for nonlinear control operations 
+          for YASREF (Yanbu site) and LyondellBasell (Wesseling site).
           - Lead a campaign of proactive health check visits to improve 
           satisfaction and accelerate customer success. A few customers that 
           benefitted from these visits were Borealis (Stenungsund site), OMV 
@@ -303,9 +297,9 @@ params:
           url: "https://example.com"
         content: |
           Joined the global team of technical consultants assigned to the 
-          Advanced Process Control (APC) suite of products. My responsabilities
+          Advanced Process Control (APC) suite of products. My responsibilities
           involved:
-          - Troubleshooting typical usage problems to customers
+          - Troubleshooting typical usage problems
           - Detection of product defects and escalation to R&D and Product 
           Management
           - Delivery of virtual training courses to customers, e.g. Flint Hills
@@ -330,8 +324,8 @@ params:
         date: "2021"
         GPA: "Merit. 3.7 / 4.0"
         content: |-
-          - Awarded a scholarship for postgraduate studies by the Mexican 
-          National Council of Science and Technology (CONACYT).
+          - Awarded a scholarship for postgraduate studies by Consejo Nacional 
+          de Ciencia y Tecnología (CONACYT).
           - Dissertation: Heuristical methods for the airport slot allocation 
           problem. Supervised by 
           [Prof Miguel F. Anjos](https://miguelanjos.com/).
@@ -356,8 +350,8 @@ params:
           - Women in STEM scholarship holder.
           - Concentration in Project Management and Biotechnology
           - Awarded a study abroad scholarship to study at the 
-          [University of Technology, Sydney](https://www.uts.edu.au/). This 
-          scholarship was sponsored by Fundación UNAM and The Coca-Cola Company.
+          [University of Technology, Sydney](https://www.uts.edu.au/), sponsored
+          by Fundación UNAM and The Coca-Cola Company.
           
           Extracurricular Activities
             - Completed 480h of volunteering work in a Teacher's training 
