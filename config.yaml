@@ -1,6 +1,6 @@
 baseURL: "https://mariel-rs.github.io/"
 languageCode: "en-us"
-title: "Welcome | Mariel's GitHub page"
+title: "Mariel's GitHub page"
 theme: hugo-profile
 
 Paginate: 3
@@ -41,7 +41,7 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Mariel's Profile"
+  title: "Mariel's profile"
   description: Mariel's GitHub profile page
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
@@ -92,8 +92,8 @@ params:
     enable: true
     intro: "Hola, my name is"
     title: "Mariel."
-    subtitle: "Analytics consultant"
-    content: "I like to solve problems using technology and applied mathematics"
+    subtitle: "Technology, analytics and optimization enthusiast"
+    content: ""
     image: /images/headshot.jpg
     button:
       enable: false
@@ -122,16 +122,16 @@ params:
       has taken me to work in the EMEA, LATAM and NORAM regions for clients in
       various fields, such as manufacturing, control engineering, digital twins
       and analytics.
-
+      
       My interests lie in the junction between technology and applied 
       mathematics, with a particular focus on using analytical techniques to 
       make informed decisions on operational challenges. I also enjoy 
-      learning new tech stacks and supplementing my skills for building 
-      user-friendly and adaptable software solutions that deliver value.
+      supplementing my skills with new tech stacks for building user-friendly
+      and adaptable software solutions that deliver value.
 
     skills:
       enable: true
-      title: "Latest tech stack I have been working with:"
+      title: "Latest stacks I have been working with:"
       items:
         - "Java"
         - "Julia"
