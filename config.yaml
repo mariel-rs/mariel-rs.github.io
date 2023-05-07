@@ -77,7 +77,7 @@ params:
   # navbar:
   #   align: mx-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
   #   brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-  #   brandName: "Profile" # Brand name for the brand | default is the title variable
+  #   brandName: "Profile" # Brand name for thek brand | default is the title variable
 
   #   menus:
   #     disableAbout: true
@@ -134,7 +134,9 @@ params:
       title: "Latest stacks I have been working with:"
       items:
         - "Java"
-        - "Julia"
+        - "CentOS"
+        - "Docker"
+        - "Podman"
         - "Python"
         - "Pop!_OS"
 
