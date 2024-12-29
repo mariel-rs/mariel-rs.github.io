@@ -144,7 +144,7 @@ params:
   experience:
     enable: true
     items:
-      - job: "Solution Consultant II"
+      - job: "Lead Solution Consultant"
         company: "FICO"
         companyUrl: "https://www.fico.com/"
         date: "Aug 2022 - present"
@@ -153,13 +153,13 @@ params:
           name: "View the project"
           url: "https://example.com"
         content: |
-          - Implementation of analytics solutions to a range of customers in 
-          banking and retail in the LAC region. 
-          - Responsible for the full implementation cycle: configuration, 
-          data migration, development, testing
+          - Implementation of analytics and decisioning solutions to a range of 
+          customers in banking, telecomms and retail in the NORAM and LAC regions. 
+          - Tech lead responsible for the full implementation cycle of enterprise
+          level solutions: design, configuration, development, testing
 
           **Tech stack**
-          - `FICO's proprietary software` Blaze, Decision Modeler
+          - `FICO's proprietary software` Decision Modeler, Platform Orchestration
           - `Java`
           - `Python`
 
