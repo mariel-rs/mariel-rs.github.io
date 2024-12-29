@@ -3,7 +3,8 @@ languageCode: "en-us"
 title: "Mariel's GitHub page"
 theme: hugo-profile
 
-Paginate: 3
+pagination: 
+  pagerSize: 3
 #disqusShortname:
 googleAnalytics: G-0L93SSK6KP
 ignoreErrors: ["error-remote-getjson"]
