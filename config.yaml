@@ -145,7 +145,7 @@ params:
   experience:
     enable: true
     items:
-      - job: "Lead Solution Consultant"
+      - job: "Sr Solution Consultant"
         company: "FICO"
         companyUrl: "https://www.fico.com/"
         date: "Aug 2022 - present"
